@@ -77,7 +77,6 @@
             </div>
             <div id="header_1_center"></div>
             <div id="header_1_right">
-            <h1>test</h1>
                 <!-- 로그인 전 -->
                 <c:if test="${ empty sessionScope.loginUser }">
 	                <a href="enrollForm.do">회원가입1</a> | 
